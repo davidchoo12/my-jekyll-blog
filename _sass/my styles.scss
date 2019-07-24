@@ -1,0 +1,15 @@
+.tags {
+  margin-top: 10px;
+}
+.tag-badge {
+  color: #ccc;
+  background: #202830;
+  border-radius: 5px;
+  padding: 4px;
+  margin-right: 5px;
+  &:hover {
+    text-decoration: none;
+    color: #ddd;
+    background: #303840;
+  }
+}
