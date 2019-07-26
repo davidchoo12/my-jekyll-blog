@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: David's Notes
+title: david's notes
 email: test@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A geeky brain dump of codes and stuff. I am a year 3 Information Systems
-  student in National University of Singapore. I am a lazy driven developer,
-  coding stuff that lets me to do less work. During my free time, I love to
-  watch animes and youtube gaming videos.
+description: A geeky brain dump of codes and stuff
+long_description: >- # this means to ignore newlines until "baseurl:"
+  A geeky brain dump of codes and stuff. I code stuff that lets me do
+  less work. I spend my free time watching animes and youtube gaming channels
+  (long time subscriber of Pewdiepie, Markiplier, Jacksepticeye and Teo).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://davidchoo.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
@@ -28,6 +28,9 @@ github_username: hidingmode
 # Build settings
 markdown: kramdown
 # theme: minima
+kramdown:
+  syntax_highlighter: rouge
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

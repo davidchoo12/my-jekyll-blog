@@ -8,6 +8,10 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+* {
+  scrollbar-color: lighten($background-color, 5%) lighten($background-color, 10%);
+}
+
 
 
 /**
@@ -15,6 +19,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  line-height: 2em;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -77,11 +82,10 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-  margin-left: $spacing-unit;
-}
 
 li {
+  list-style-type: square;
+  list-style-position: inside;
   > ul,
   > ol {
     margin-bottom: 0;
@@ -94,6 +98,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
   font-weight: $base-font-weight;
 }
 
@@ -143,10 +148,9 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  font-family: $code-font-family;
+  @include relative-font-size(0.8);
+  line-height: 1.5em;
 }
 
 code {
@@ -204,8 +208,8 @@ pre {
  */
 
 .svg-icon {
-    width: 16px;
-    height: 16px;
+    width: 23px;
+    height: 23px;
     display: inline-block;
     fill: #{$grey-color};
     padding-right: 5px;
