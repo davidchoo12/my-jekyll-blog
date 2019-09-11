@@ -1,3 +1,15 @@
+h1 {
+  display: flex;
+  align-items: center;
+  &:after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: #ddd;
+    margin-left: 20px;
+  }
+}
+
 .post-date {
   font-family: $code-font-family;
 }
