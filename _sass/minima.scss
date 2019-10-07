@@ -20,6 +20,7 @@ $brand-color:      #acd !default;
 $grey-color:       #bbb !default;
 $grey-color-dark: lighten($grey-color, 40%) !default;
 $grey-color-light:  darken($grey-color, 25%) !default;
+$grey-color-lighter:  darken($grey-color, 55%) !default;
 
 $table-text-align: left !default;
 
