@@ -14,6 +14,14 @@
     "desc": "A browser game reminiscent of Hole in the Wall gameshow powered by Tensorflow Pose Estimation library (aka Posenet)"
   },
   {
+    "name": "Advent of Code 2019",
+    "repo_url": "https://github.com/davidchoo12/adventofcode2019",
+    "tech": "Just python but involves some algorithmic problem solving, check out the repo for details",
+    "progress": "done",
+    "period": "Dec 2019",
+    "desc": "Advent of Code is a yearly coding challenge with daily coding problems for the month of December. I completed the Advent of Code 2019 challenge, finishing it right on New Year's Eve. I took the chance to learn a new language like many others which is python in my case."
+  },
+  {
     "name": "Luminus Filetree",
     "repo_url": "https://github.com/davidchoo12/luminus-filetree",
     "tech": [
