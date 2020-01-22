@@ -1,5 +1,19 @@
 [
   {
+    "name": "Hole in the Wall game",
+    "url": "https://davidchoo12.github.io/hole-in-the-wall-game/",
+    "repo_url": "https://github.com/davidchoo12/hole-in-the-wall-game",
+    "tech": [
+      "[Tensorflow.js PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet/)",
+      "[PoseNet Similarity](https://github.com/freshsomebody/posenet-similarity)",
+      "[HTML5 Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)"
+    ],
+    "progress": "done",
+    "period": "Jan 2020",
+    "image_url": "https://raw.githubusercontent.com/davidchoo12/hole-in-the-wall-game/master/demo.jpg",
+    "desc": "A browser game reminiscent of Hole in the Wall gameshow powered by Tensorflow Pose Estimation library (aka Posenet)"
+  },
+  {
     "name": "Luminus Filetree",
     "repo_url": "https://github.com/davidchoo12/luminus-filetree",
     "tech": [
