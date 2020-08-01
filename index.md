@@ -3,7 +3,7 @@ layout: default
 ---
 
 # About me
-Welcome to my website! I am currently a year 3 undergraduate taking Information
+Welcome to my website! I am currently a year 4 undergraduate taking Information
 Systems in National University of Singapore. I love to code. I am most confident
 when working with Javascript for front and back end web development and I am
 currently learning C++. I have been doing web development ever since I was back
