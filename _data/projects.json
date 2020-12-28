@@ -1,5 +1,13 @@
 [
   {
+    "name": "Advent of Code 2020",
+    "repo_url": "https://github.com/davidchoo12/adventofcode2020",
+    "tech": "Rust",
+    "progress": "done",
+    "period": "Dec 2020",
+    "desc": "Found it fun last year, so I did it again this year, this time with Rust. I documented on some of the notable problems and my experience with Rust in the repo."
+  },
+  {
     "name": "Hole in the Wall game",
     "url": "https://davidchoo12.github.io/hole-in-the-wall-game/",
     "repo_url": "https://github.com/davidchoo12/hole-in-the-wall-game",
