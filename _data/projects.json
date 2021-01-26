@@ -1,5 +1,21 @@
 [
   {
+    "name": "NUSWhispers Analysis",
+    "url": "https://nuswhispers-analysis.herokuapp.com/index.html",
+    "repo_url": "https://github.com/davidchoo12/nuswhispers-analysis",
+    "video_url": "https://www.youtube.com/watch?v=UBmIUV5FekM",
+    "tech": [
+      "[Github Actions](https://docs.github.com/en/actions)",
+      "[NumPy](https://numpy.org/)",
+      "[pandas](https://pandas.pydata.org/)",
+      "[FastAPI](https://fastapi.tiangolo.com/)",
+      "[uPlot](https://github.com/leeoniya/uPlot/)",
+    ],
+    "progress": "ongoing",
+    "period": "Dec 2020 - current",
+    "desc": "A website displaying stats and data analysis on NUSWhispers' confessions inspired by [this post](https://www.facebook.com/nuswhispers/photos/a.817681254969004/3204771462926626). It currently just displays some time series data. Planning to add sentiment analysis and dynamic topic modelling. This is also my submission for Hack&Roll 2021."
+  },
+  {
     "name": "Advent of Code 2020",
     "repo_url": "https://github.com/davidchoo12/adventofcode2020",
     "tech": "Rust",
@@ -10,6 +26,7 @@
   {
     "name": "Hole in the Wall game",
     "url": "https://davidchoo12.github.io/hole-in-the-wall-game/",
+    "video_url": "https://www.youtube.com/watch?v=T5K2XZUlXPY",
     "repo_url": "https://github.com/davidchoo12/hole-in-the-wall-game",
     "tech": [
       "[Tensorflow.js PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet/)",
