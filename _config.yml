@@ -45,17 +45,20 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - README.md
 
 # site configs
 permalink: /:slug
 
+# set default layout for posts with _layout/post.html
 defaults:
   - scope:
-      path: ""
+      path: "" # empty string means all files in the project
       type: "posts"
     values:
       layout: "post"
-include: ["_pages"]
+# point pages to _pages dir
 collections:
   pages:
     output: true
