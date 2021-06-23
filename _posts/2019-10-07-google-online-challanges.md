@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Google Online Challenges"
-slug:   google-online-challenges
-tag:    [algorithms, interview questions]
-date:   2019-10-07
+title: "Google Online Challenges"
+slug: google-online-challenges
+tag: [algorithms, interview questions]
+published: 2019-10-07
 ---
 
 Last Friday (4 Oct 2019), I completed Google's online challenge questions. There were 2 algorithmic questions and the time limit to solve both questions is 45 mins.
