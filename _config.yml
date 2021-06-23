@@ -55,3 +55,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+include: ["_pages"]
+collections:
+  pages:
+    output: true
+    permalink: /:path

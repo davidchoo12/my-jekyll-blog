@@ -14,11 +14,18 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+  h1::before {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: #ddd;
+  }
 </style>
 
 <div class="container">
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p>but here is a random kitten :)</p>
+  <img src="http://placekitten.com/300/300">
 </div>
