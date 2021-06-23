@@ -3,7 +3,7 @@ layout: post
 title: "List of linux commands"
 slug: list-of-linux-commands
 tag: [linux]
-published: 2020-11-15
+published: 2021-06-23
 ---
 
 Here is a list of linux cli commands/tools that I have used. Purpose is for my own future reference and to track what I know. The list is non exhaustive and not sorted in any way. [explainshell.com](https://explainshell.com) is a very nice website to learn about the commands, can bookmark `https://explainshell.com/explain?cmd=%s`.
