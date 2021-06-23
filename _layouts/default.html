@@ -14,7 +14,17 @@
     </main>
 
     {%- include footer.html -%}
-
+    <script>
+      // add headings anchor links, src https://ben.balter.com/2014/03/13/pages-anchor-links/
+      for (let h of Array.from(document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]'))) {
+        let a = document.createElement('a');
+        a.setAttribute('href', '#'+h.id);
+        a.className = 'header-link';
+        a.text = '#';
+        h.insertBefore(a, h.firstChild);
+        console.log(a);
+      }
+    </script>
   </body>
 
 </html>
