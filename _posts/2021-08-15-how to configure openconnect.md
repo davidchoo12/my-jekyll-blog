@@ -3,7 +3,7 @@ layout: post
 title: 'How to configure openconnect'
 slug: how-to-configure-openconnect
 tag: [linux]
-published: 2021-06-23
+published: 2021-08-15
 ---
 
 A few weeks ago, I noticed that youtube has been slow when I was connected to my office's vpn. I listen to music on youtube so it was annoying having it buffer all the time. Although recently it seems to have recovered, it still buffers or plays in low video quality. This led me to learn that the vpn is configured to route all outgoing traffic except the IPs of certain domains like zoom, which motivates me to figure out how I can setup vpn [split tunneling](https://en.wikipedia.org/wiki/Split_tunneling). A quick search in the internal code repos, I found a repo that someone made doing exactly what I wanted. The code uses openconnect and vpn-slice:
@@ -11,14 +11,14 @@ A few weeks ago, I noticed that youtube has been slow when I was connected to my
 
 Since openconnect is a rather niche tool (243 [github](https://github.com/openconnect/openconnect) stars and 106 [gitlab](https://gitlab.com/openconnect/openconnect) stars as of writing) and it supports a variety of vpn protocols, there is little documentation on troubleshooting or guides on how to migrate from Cisco AnyConnect to openconnect. Openconnect has its own guide on [how to connect to vpn](https://www.infradead.org/openconnect/connecting.html) but I find it quite lacking in details. So after much digging, I finally got it to work.
 
-Here is my guide on how to configure openconnect. Openconnect was written to support Cisco AnyConnect (--protocol=anyconnect) ([link to doc](https://www.infradead.org/openconnect/anyconnect.html)) and has experimental support for these vpn protocols:
+Here is my guide on how to configure openconnect. Openconnect was written to support Cisco AnyConnect (`--protocol=anyconnect`) ([link to doc](https://www.infradead.org/openconnect/anyconnect.html)) and has experimental support for these vpn protocols:
 
-- Juniper Network Connect (--protocol=nc) [link to doc](https://www.infradead.org/openconnect/juniper.html)
-- Junos Pulse aka Pulse Secure (--protocol=pulse) [link to doc](https://www.infradead.org/openconnect/pulse.html)
-- PAN GlobalProtect (--protocl=gp) [link to doc](https://www.infradead.org/openconnect/globalprotect.html)
-- F5 Big-IP (--protocol=f5) [link to doc](https://www.infradead.org/openconnect/f5.html)
-- Fortinet Fortigate (--protocol=fortinet) [link to doc](https://www.infradead.org/openconnect/fortinet.html)
-- Array Network SSL (--protocol=array) [link to doc](https://www.infradead.org/openconnect/array.html)
+- Juniper Network Connect (`--protocol=nc`) [link to doc](https://www.infradead.org/openconnect/juniper.html)
+- Junos Pulse aka Pulse Secure (`--protocol=pulse`) [link to doc](https://www.infradead.org/openconnect/pulse.html)
+- PAN GlobalProtect (`--protocol=gp`) [link to doc](https://www.infradead.org/openconnect/globalprotect.html)
+- F5 Big-IP (`--protocol=f5`) [link to doc](https://www.infradead.org/openconnect/f5.html)
+- Fortinet Fortigate (`--protocol=fortinet`) [link to doc](https://www.infradead.org/openconnect/fortinet.html)
+- Array Network SSL (`--protocol=array`) [link to doc](https://www.infradead.org/openconnect/array.html)
 
 I am using macOS and Cisco AnyConnect, so this guide might not be as applicable if you are using different vpn protocol, but should show you what you need even if you're on different OS.
 
