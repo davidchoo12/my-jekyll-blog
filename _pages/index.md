@@ -5,7 +5,7 @@ layout: default
 # About me
 Welcome to my website! I am currently a fresh graduate having taken Information Systems in National University of Singapore. I love to code. I am most confident when working with Javascript and Python. I have been doing web development ever since I was in Singapore Polytechnic in 2014, and I am keen on learning new technologies.
 
-My resume is available [here](https://github.com/davidchoo12/Awesome-CV/blob/master/resume.pdf). Feel free to reach me at [davidchoo16@gmail.com.](mailto:davidchoo16@gmail.com)
+My resume is available [here](https://github.com/davidchoo12/Awesome-CV/blob/master/resume.pdf).
 
 Even though I am an InfoSys student, I would consider myself to be more of a Computer Science type of person. I have been taking CS modules that are not part of my graduation requirement. I am interested in algorithmic problem solving and machine learning.
 
