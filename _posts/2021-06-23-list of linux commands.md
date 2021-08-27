@@ -61,6 +61,12 @@ Here is a list of linux cli commands/tools that I have used. Purpose is for my o
 - `pwd`: prints working(current) directory, not to be confused with passwd
 - `tar`: compress or extract tar files
   - `tar -xzvf`: extracts .tar.gz files
+- `gzip`: compress or extract gzip files
+  - `gzip -d`: extracts .gz file in the same dir, removing the .gz file
+  - `gzip -dk`: extracts .gz file, keeping the .gz file
+- `zless`: `less` for .gz file without extracting it
+- `zcat`: `cat` for .gz file without extracting it
+- `zgrep`: `grep` for .gz file without extracting it
 - `zip`: compress to .zip
 - `unzip`: extracts .zip
 - `touch`: creates file, sets last modified time
@@ -110,6 +116,9 @@ Here is a list of linux cli commands/tools that I have used. Purpose is for my o
 - `who`: see who else is ssh-ing into the same machine
 - `curl`: send http request, also includes various other protocols
   - `curl -fsSL`: send request non verbose, follows http redirects
+  - `curl -X POST -d 'param1=value1&param2=value2'`: posts x-www-form-urlencoded
+  - `curl -X POST -H 'content-type: application/json' -d '{"a":"b"}'`: posts json
+  - `curl -F 'image=@file.jpg' -F 'param=value'`: posts multipart/form-data
 
 ## User permission
 - `sudo`: runs as root
